@@ -1,0 +1,37 @@
+.to{
+    height: 25px;
+    width:60px;
+    border-radius: 20px;
+    border: 1px solid gray;
+   background-color: rgb(233, 243, 243);
+  position:fixed;
+  top: 10px;
+  right: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.to-icon{
+    width:20px;
+    height: 20px;
+    /* z-index: 999; */
+    /* border: 2px solid black; */
+    padding: 5px;
+}
+.to-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(10, 1, 1);
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+}
+
+
+@media  screen and  (max-width: 480px){
+   .to{
+       position: relative;
+       margin-left: 300px;
+   }
+}
